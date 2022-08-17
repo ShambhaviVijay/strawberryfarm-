@@ -1,0 +1,93 @@
+.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+* {
+        font-size: 2vh;
+        font-weight: 600;
+
+}
+
+.head {
+        display: flex;
+        height: 7vh;
+        width: 100%;
+        color: white;
+        font-size: 3.5vh;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: pink;
+}
+
+.c2 {
+        display: flex;
+        width: 150vh;
+        margin: 1vh;
+        height: 75vh;
+        background-color: rgb(239, 140, 156);
+}
+
+.body {
+        margin: 1vh;
+        background-color: white;
+        width: 45vh;
+        font-size: 2.7vh;
+}
+
+.art1 {
+        width: 60vh;
+}
+
+.art2 {
+        display: flex;
+        justify-content: center;
+        margin: 20vh;
+        max-height: 70vh;
+        width: 100vh;
+
+}
+
+.box {
+        display: inline-block;
+        padding: 5vh;
+        color: white;
+        margin: 0.8vh;
+        background-color: rgb(246, 75, 104);
+
+        /* border-radius: 100%;*/
+        width: 28vh;
+        height: 30vh;
+}
+
+
+.footer {
+        display: flex;
+        height: 7vh;
+        width: 100%;
+        justify-content: center;
+        background-color: pink;
+}
+
+ul {
+        display: flex;
+
+}
+
+li {
+        padding: 1vh;
+        list-style: none;
+        font-size: 2.3vh;
+}
+
+.hola {
+        margin: 1vh;
+
+}
+
+.team {
+        padding: 2vh;
+        font-size: 2.4vh;
+}

@@ -1,0 +1,53 @@
+.container {
+        padding: 3vh;
+        height: 70vh;
+        background-color: rgb(248, 213, 219);
+        font-size: 2.9vh;
+
+}
+
+.ff {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: 10vh;
+}
+
+.f1 {
+        width: 45vh;
+        height: 5vh;
+        border: none;
+        border-bottom: 1px solid rgb(235, 27, 62);
+}
+
+.btn {
+        margin: 2vh;
+        width: 20vh;
+        border: none;
+        padding: 1vh;
+        color: white;
+        background-color: rgb(241, 54, 85);
+}
+
+
+/* The animation code */
+@keyframes example {
+        from {
+                background-color: rgb(247, 207, 214);
+        }
+
+        to {
+                background-color: rgb(246, 153, 169);
+        }
+}
+
+/* The element to apply the animation to */
+.s2 {
+        width: 100%;
+        height: 30vh;
+        background-color: rgb(247, 84, 111);
+        animation-name: example;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
